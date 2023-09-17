@@ -18,7 +18,7 @@ let jsonDecoder: JSONDecoder = {
 struct Movie: Decodable, Equatable, Identifiable {
     let id: Int
     let title: String
-    let overView: String
+    let overview: String
     let posterPath: String?
     var posterURL: URL? {
         posterPath.map { URL(string: "https://image.tmdb.org/t/p/w400/\($0)")! }
