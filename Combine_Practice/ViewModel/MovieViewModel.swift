@@ -61,7 +61,7 @@ final class MovieViewModel: ObservableObject {
     }
 }
 
-let apiKey = "83f27c2842e3896887360183f6b032c2"
+let apiKey = "83f27c2842e3896887360183f6b032c2" 
 
 func fetchMovies() -> some Publisher<MovieResponse, Error> {
     let url = URL(string: "https://api.themoviedb.org/3/movie/upcoming?api_key=\(apiKey)")!
