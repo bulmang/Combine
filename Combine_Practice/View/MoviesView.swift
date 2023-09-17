@@ -24,17 +24,17 @@ struct MoviesView: View {
                 VStack(alignment: .leading) {
                     Text(movie.title)
                         .font(.headline)
-                    Text(movie.overView)
+                    Text(movie.overview)
                         .font(.callout)
                         .lineLimit(3)
                 }
-                
             }
-            
         }
+        .navigationTitle("🎥 영화")
+        .searchable(text: $viewModel.searchQuery)
         .onAppear {
             viewModel.fetchInitialData()
-            print(viewModel.movies)
+            print(viewModel.upcomingMovies)
             print("HI")
         }
     }
