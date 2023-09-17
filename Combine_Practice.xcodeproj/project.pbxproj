@@ -61,7 +61,7 @@
 		071135832AB6DD4800895FCB /* Combine_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				0711359C2AB6DF4100895FCB /* MovieViewModel */,
+				0711359C2AB6DF4100895FCB /* ViewModel */,
 				071135992AB6DD9E00895FCB /* Model */,
 				071135922AB6DD5A00895FCB /* View */,
 				071135842AB6DD4800895FCB /* Combine_PracticeApp.swift */,
@@ -98,12 +98,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0711359C2AB6DF4100895FCB /* MovieViewModel */ = {
+		0711359C2AB6DF4100895FCB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				0711359D2AB6DF7D00895FCB /* MovieViewModel.swift */,
 			);
-			path = MovieViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
