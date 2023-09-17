@@ -90,6 +90,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 # API 키 무시
-apiKey
+*.apiKey
 
 *.DS_Store
